@@ -29,4 +29,23 @@ Misc
 * C-u : supply a unit (used for repeating commands)
 
 
-CONTINUE TUTORIAL FROM WINDOWS SECIOND
+Windows
+-------
+C-x 1 - revert to single window
+
+Inserting And Deleting
+----------------------
+
+DEL : delete previous character
+C-d : delete next character
+M-DEL : delete the word previous to the character
+M-d : delete the next word
+C-k : kill from the cursor position to the end of line
+M-k : kill to the end of the current sentence
+C-SPC, C-w : Select characters and kill them
+C-y : yank, re-inserts killed text
+M-y : yank, cycles through the kill ring
+
+NB: Killed text can be yanked back to life, deleted text is gone forever
+
+CONTINUE TUTORIAL FROM UNDO SECIOND
