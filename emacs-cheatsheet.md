@@ -77,4 +77,4 @@ Mode Line
 
 NB: Major-Mode contained in the parenthesis changes the context of which some of the commands are bound.
 
-CONTINUE TUTORIAL FROM MULTIPLE WINDOWS SECTION
+CONTINUE TUTORIAL FROM SEARCHING SECTION
