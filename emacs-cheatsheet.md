@@ -9,7 +9,7 @@ Screen Commands
 * C-v : page down
 * M-v : page up
 * C-l : refresh screen
-
+* C-l, C-l : bring current line to top of the screen
 
 Cursor Control
 -------------
@@ -27,11 +27,12 @@ Cursor Control
 Misc
 ----
 * C-u : supply a unit (used for repeating commands)
-
+* C-g : clear the mini buffer
 
 Windows
 -------
 C-x 1 - revert to single window
+
 
 Inserting And Deleting
 ----------------------
@@ -57,6 +58,23 @@ NB: Undoing can bring back deleted text
 
 Files
 -----
-*
+* C-x, C-f : find a file
+* C-x, C-s : save file
+* M-x, recover-file : recovers the open file from the autosaved version in the event of a crash
 
-CONTINUE TUTORIAL FROM FILES SECTION
+Buffers
+-------
+* C-x, C-b : list buffers
+* C-x, 1 : close buffer list
+* C-x, b : switch to buffer
+* C-x, s : prompts for saving of changed open buffers
+
+ 
+Mode Line
+---------
+* M-x, text-mode : switches the major mode to text edit 
+* C-h, m : show help for modes
+
+NB: Major-Mode contained in the parenthesis changes the context of which some of the commands are bound.
+
+CONTINUE TUTORIAL FROM MULTIPLE WINDOWS SECTION
