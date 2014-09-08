@@ -28,10 +28,14 @@ Misc
 ----
 * C-u : supply a unit (used for repeating commands)
 * C-g : clear the mini buffer
+* <ESC>,<ESC>,<ESC> : get out command
 
 Windows
 -------
-C-x 1 - revert to single window
+C-x 2 : splits the screen into two windows
+C-x o : moves the curor to 'other' window
+C-M-v : scroll other window
+C-x 1 : revert to single window
 
 
 Inserting And Deleting
@@ -76,5 +80,12 @@ Mode Line
 * C-h, m : show help for modes
 
 NB: Major-Mode contained in the parenthesis changes the context of which some of the commands are bound.
+
+Searching
+---------
+* C-s : enters interactive search mode
+
+NB: Whilst in incremental search mode you may type strings to search for, subsequent C-s will find next occurences C-r will find previous. <Return> will end the interactive search session
+
 
 CONTINUE TUTORIAL FROM SEARCHING SECTION
