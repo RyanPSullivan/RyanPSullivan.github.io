@@ -36,7 +36,7 @@ C-x 2 : splits the screen into two windows
 C-x o : moves the curor to 'other' window
 C-M-v : scroll other window
 C-x 1 : revert to single window
-
+C-x 0 : delete selected window
 
 Inserting And Deleting
 ----------------------
@@ -78,7 +78,6 @@ Mode Line
 ---------
 * M-x, text-mode : switches the major mode to text edit 
 * C-h, m : show help for modes
-
 NB: Major-Mode contained in the parenthesis changes the context of which some of the commands are bound.
 
 Searching
