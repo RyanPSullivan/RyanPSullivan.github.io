@@ -16,7 +16,6 @@
     "highlight": "~7.0.1"
   },
   "resolutions": {
-    "angular": "1.2.23",
     "marked": "0.3.0"
   }
 }
