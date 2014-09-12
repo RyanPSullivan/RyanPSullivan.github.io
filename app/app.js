@@ -5,8 +5,9 @@ angular.module('myApp', [
   'ngRoute',
   'myApp.view1',
   'myApp.view2',
+  'myApp.emacs',
   'myApp.version'
 ]).
 config(['$routeProvider', function($routeProvider) {
-  $routeProvider.otherwise({redirectTo: 'app/view1'});
+  $routeProvider.otherwise({redirectTo: 'view1'});
 }]);
