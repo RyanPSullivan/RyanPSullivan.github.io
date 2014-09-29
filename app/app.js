@@ -6,7 +6,8 @@ angular.module('myApp', [
   'yaru22.md',
   'myApp.webgl',
   'myApp.emacs',
-  'myApp.version'
+  'myApp.version',
+  'myApp.nav'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: 'webgl'});
