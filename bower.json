@@ -13,7 +13,8 @@
     "html5-boilerplate": "~4.3.0",
     "angular-md": "~1.0.0",
     "marked": "~0.3.2",
-    "highlight": "~7.0.1"
+    "highlight": "~7.0.1",
+    "angular-bootstrap": "~0.11.2"
   },
   "resolutions": {
     "marked": "0.3.0"

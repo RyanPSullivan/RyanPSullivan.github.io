@@ -1,12 +1,28 @@
 [
     {
-        "title":"webgl",
+        "title":"WebGL",
         "link":"#/webgl",
-        "sections" : [ "HelloTriangle", "HelloColouredTriangle"]
+        "sections" : 
+        [ 
+            {
+                "title":"Hello Triangle",
+                "link":"#/webgl"
+            },
+            {
+                "title":"Hello Coloured Triangle",
+                "link":"#/webgl"
+            }
+        ]   
     },
     {
-        "title":"emacs",
+        "title":"Emacs",
         "link":"#/emacs",
-        "sections" : [ "CheatSheet" ]
+        "sections" : 
+        [ 
+            {
+                "title":"Cheat Sheet",
+                "link":"#/emacs"
+            }
+        ]  
     }
 ]
