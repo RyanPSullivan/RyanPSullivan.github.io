@@ -60,9 +60,9 @@ NB: Undoing can bring back deleted text
 * M-x, recover-file : recovers the open file from the autosaved version in the event of a crash
 
 ## Directories
-* C-x d : enter directory mode
-* \+ : create directory in CWD  whilst in directory mode
-
+* C-x d : enter dired mode
+* \+ : create directory in CWD  whilst in dired mode
+* R : rename directory or file whilst in dired mode
 ## Buffers
 * C-x, C-b : list buffers
 * C-x, 1 : close buffer list

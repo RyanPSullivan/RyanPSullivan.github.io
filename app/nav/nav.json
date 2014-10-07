@@ -1,7 +1,6 @@
 [
     {
         "title":"WebGL",
-        "link":"#/webgl",
         "sections" : 
         [ 
             {
@@ -15,14 +14,17 @@
         ]   
     },
     {
-        "title":"Emacs",
-        "link":"#/emacs",
+        "title":"Linux",
         "sections" : 
         [ 
             {
-                "title":"Cheat Sheet",
+                "title":"Emacs Cheat Sheet",
                 "link":"#/emacs"
-            }
+            },
+	    {
+		"title":"Tmux Cheat Sheet",
+		"link":"#/tmux"
+	    }
         ]  
     }
 ]

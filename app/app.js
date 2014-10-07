@@ -6,7 +6,7 @@ angular.module('myApp', [
   'ui.bootstrap',
   'yaru22.md',
   'myApp.webgl',
-  'myApp.emacs',
+  'myApp.linux',
   'myApp.version',
   'myApp.nav'
 ]).
