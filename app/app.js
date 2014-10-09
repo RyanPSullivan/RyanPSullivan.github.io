@@ -8,7 +8,8 @@ angular.module('myApp', [
   'myApp.webgl',
   'myApp.linux',
   'myApp.version',
-  'myApp.nav'
+  'myApp.nav',
+  'myApp.portfolio'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: 'webgl'});
