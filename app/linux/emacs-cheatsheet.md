@@ -1,4 +1,3 @@
-
 # Emacs Cheatsheet 
 
 ## Get Out Of Dodge
@@ -63,6 +62,8 @@ NB: Undoing can bring back deleted text
 * C-x d : enter dired mode
 * \+ : create directory in CWD  whilst in dired mode
 * R : rename directory or file whilst in dired mode
+
+yes
 ## Buffers
 * C-x, C-b : list buffers
 * C-x, 1 : close buffer list
