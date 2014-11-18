@@ -1,17 +1,8 @@
 <div class="container-fluid">
   <div class="row-fluid">
-    <div class="col-md-2">
-      <div class="panel panel-info">
-	<div class="panel-heading">
-	  <p><a ng-click="scrollTo('degree')">Degree</a></p>
-	  <p><a ng-click="scrollTo('group-project')">Group Project</a></p>
-	</div>
-      </div>
-    </div>
-
-    <div class="col-md-10">
+    <div class="col-md-9">
      <div>
-       <a name="degree">Degree</a>
+       <a name="degree">Degree Overview</a>
        <md ng-include="'app/portfolio/university.md'"></md>
      </div>
      <div>
@@ -21,6 +12,17 @@
          </div>
       </div>
     </div>
+
+    <div class="col-md-3 ">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <p><a ng-click="scrollTo('degree')">Degree Overview</a></p>
+            <p><a ng-click="scrollTo('group-project')">Group Project</a></p>
+          </div>
+        </div>
+        <div class="container-fluid">
+            <polymer-github-chart user="RyanPSullivan"></polymer-github-chart>
+        </div>
+    </div>
   </div>
 </div>
-

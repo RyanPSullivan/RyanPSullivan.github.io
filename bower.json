@@ -14,7 +14,8 @@
     "angular-md": "~1.0.0",
     "marked": "~0.3.2",
     "highlight": "~7.0.1",
-    "angular-bootstrap": "~0.11.2"
+    "angular-bootstrap": "~0.11.2",
+    "polymer-github-card": "~0.0.1"
   },
   "resolutions": {
     "marked": "0.3.0"

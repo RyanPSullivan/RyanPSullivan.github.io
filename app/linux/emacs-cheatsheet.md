@@ -1,4 +1,4 @@
-# Emacs Cheatsheet 
+# Emacs Cheatsheet
 
 ## Get Out Of Dodge
 * C-x, C-c : end emacs session
@@ -63,16 +63,15 @@ NB: Undoing can bring back deleted text
 * \+ : create directory in CWD  whilst in dired mode
 * R : rename directory or file whilst in dired mode
 
-yes
 ## Buffers
 * C-x, C-b : list buffers
 * C-x, 1 : close buffer list
 * C-x, b : switch to buffer
 * C-x, s : prompts for saving of changed open buffers
 
- 
+
 ## Mode Line
-* M-x, text-mode : switches the major mode to text edit 
+* M-x, text-mode : switches the major mode to text edit
 * C-h, m : show help for modes
 NB: Major-Mode contained in the parenthesis changes the context of which some of the commands are bound.
 

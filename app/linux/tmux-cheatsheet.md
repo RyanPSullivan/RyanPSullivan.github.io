@@ -1,4 +1,4 @@
-# Tmux Cheatsheet 
+# Tmux Cheatsheet
 
 ## Launching
 * tmux : launch a new tmux session
