@@ -8,9 +8,10 @@ angular.module('myApp', [
   'myApp.webgl',
   'myApp.linux',
   'myApp.version',
-  'myApp.nav',
+  'myApp.nav-bar',
+  'myApp.side-bar',
   'myApp.portfolio'
 ]).
 config(['$routeProvider', function($routeProvider) {
-  $routeProvider.otherwise({redirectTo: 'webgl'});
+  $routeProvider.otherwise({redirectTo: 'university'});
 }]);

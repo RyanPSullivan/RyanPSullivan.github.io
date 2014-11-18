@@ -11,8 +11,8 @@
     },
     {
         "title":"WebGL",
-        "sections" : 
-        [ 
+        "sections" :
+        [
             {
                 "title":"Hello Triangle",
                 "link":"#/webgl"
@@ -21,12 +21,12 @@
                 "title":"Hello Coloured Triangle",
                 "link":"#/webgl"
             }
-        ]   
+        ]
     },
     {
         "title":"Linux",
-        "sections" : 
-        [ 
+        "sections" :
+        [
             {
                 "title":"Emacs Cheat Sheet",
                 "link":"#/emacs"
@@ -35,6 +35,6 @@
 		"title":"Tmux Cheat Sheet",
 		"link":"#/tmux"
 	    }
-        ]  
+        ]
     }
 ]

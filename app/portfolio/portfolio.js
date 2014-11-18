@@ -10,7 +10,7 @@ angular.module('myApp.portfolio', ['ngRoute'])
    });
 }])
 
-.controller('MarkdownController',['$scope', '$location', '$anchorScroll', function($scope, $location, $anchorScroll) 
+.controller('MarkdownController',['$scope', '$location', '$anchorScroll', function($scope, $location, $anchorScroll)
 {
     $scope.scrollTo = function(id) {
 	var old = $location.hash();
