@@ -1,11 +1,15 @@
 [
     {
-	"title":"Portfolio",
+	"title":"Education",
 	"sections":
 	[
 	    {
 		"title":"University",
 		"link":"#/university"
+	    },
+	    {
+		"title":"MITx",
+		"link":"#/mitx"
 	    }
 	]
     },

@@ -5,13 +5,8 @@ angular.module('myApp', [
   'ngRoute',
   'ui.bootstrap',
   'yaru22.md',
-  'myApp.webgl',
-  'myApp.linux',
-  'myApp.version',
-  'myApp.nav-bar',
-  'myApp.side-bar',
-  'myApp.portfolio'
+  'myApp.page'
 ]).
 config(['$routeProvider', function($routeProvider) {
-  $routeProvider.otherwise({redirectTo: 'university'});
+  $routeProvider.otherwise({redirectTo: 'page'});
 }]);

@@ -1,0 +1,12 @@
+<div ng-include="'/app/nav-pane/nav-pane.html'" ng-controller="NavPaneController"></div>
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="col-md-9" style="padding-right:20px; border-right: 1px solid #ccc;">
+     <div ng-include="'/app/main-pane/main-pane.html'" ng-controller="MainPaneController"></div>
+    </div>
+
+    <div class="col-md-3">
+        <div ng-include="'/app/side-pane/side-pane.html'" ng-controller="SidePaneController"></div>
+    </div>
+  </div>
+</div>

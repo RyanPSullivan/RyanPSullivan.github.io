@@ -5,9 +5,14 @@ angular.module('myApp.portfolio', ['ngRoute'])
 .config(['$routeProvider', function($routeProvider)
 {
    $routeProvider.when('/university', {
-       templateUrl:'app/portfolio/university.html',
+       templateUrl:'app/education/university.html',
        controller:'MarkdownController'
    });
+
+    $routeProvider.when('/mitx',{
+	templateUrl:'app/education/mitx.html',
+	controller:'MarkdownController'
+    });
 }])
 
 .controller('MarkdownController',['$scope', '$location', '$anchorScroll', function($scope, $location, $anchorScroll)

@@ -1,6 +1,6 @@
 # University Of Teesside (2007 - 2011)
 * BSc. Computer Games Programming (Skillset Accredited)
-* Classification 1st
+* First-class honours
 
 ### Modules Included:
 * Advanced Games Software Development

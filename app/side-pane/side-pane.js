@@ -1,8 +1,8 @@
 'use strict';
 
-angular.module('myApp.side-bar',[])
+angular.module('myApp.page.side-pane',[])
 
-.controller('SideBarController',['$scope', '$location', '$anchorScroll', function($scope, $location, $anchorScroll)
+.controller('SidePaneController',['$scope', '$location', '$anchorScroll', function($scope, $location, $anchorScroll)
 {
     $scope.scrollTo = function(id) {
     var old = $location.hash();

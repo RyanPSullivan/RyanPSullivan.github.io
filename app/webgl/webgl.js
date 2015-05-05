@@ -9,8 +9,8 @@ angular.module('myApp.webgl', ['ngRoute'])
   });
 }])
 
-.controller('WebglController', [function() 
-    {   
+.controller('WebglController', [function()
+    {
 
         var gl;
         function initGL(canvas) {
@@ -125,7 +125,7 @@ angular.module('myApp.webgl', ['ngRoute'])
 
             drawScene();
         }
-        
+
         var mvMatrix = mat4.create();
         var pMatrix = mat4.create();
 

@@ -18,18 +18,8 @@
 </head>
 
 <body>
-    <div ng-include="'/app/nav-bar/nav-bar.html'" ng-controller="NavController"></div>
-    <div class="container-fluid">
-      <div class="row-fluid">
-        <div class="col-md-9" style="padding-right:20px; border-right: 1px solid #ccc;">
-         <div ng-view></div>
-        </div>
 
-        <div class="col-md-3">
-            <div ng-include="'/app/side-bar/side-bar.html'" ng-controller="SideBarController"></div>
-        </div>
-      </div>
-    </div>
+    <div ng-view> </div>
 
     <script src="app/bower_components/platform/platform.js"></script>
     <link rel="import" href="app/bower_components/polymer-github-card/dist/polymer-github-chart.html">
@@ -38,16 +28,14 @@
     <script src="app/bower_components/marked/lib/marked.js"></script>
     <script src="app/bower_components/angular-md/dist/angular-md.js"></script>
     <script src="app/bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+
     <script src="app/app.js"></script>
-    <script src="app/webgl/glMatrix-0.9.5.min.js"></script>
-    <script src="app/webgl/webgl.js"></script>
-    <script src="app/linux/linux.js"></script>
-    <script src="app/portfolio/portfolio.js"></script>
-    <script src="app/nav-bar/nav-bar.js"></script>
-    <script src="app/side-bar/side-bar.js"></script>
-    <script src="app/components/version/version.js"></script>
-    <script src="app/components/version/version-directive.js"></script>
-<script src="app/components/version/interpolate-filter.js"></script>
+    <script src="app/page/page.js"></script>
+    <script src="app/nav-pane/nav-pane.js"></script>
+    <script src="app/side-pane/side-pane.js"></script>
+    <script src="app/main-pane/main-pane.js"></script>
+
+
 
 </body>
 </html>
