@@ -1,53 +1,46 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<html lang="en">
 <head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Ryan Sullivan</title>
+  <title>Your page title here :)</title>
   <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="app/bower_components/html5-boilerplate/css/normalize.css">
-  <link rel="stylesheet" href="app/bower_components/html5-boilerplate/css/main.css">
-  <link rel="stylesheet" href="app/css/bootstrap.css">
-  <link rel="stylesheet" href="app/app.css"/>
 
-  <script src="app/bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
 </head>
-
 <body>
-    <div ng-include="'/app/nav-bar/nav-bar.html'" ng-controller="NavController"></div>
-    <div class="container-fluid">
-      <div class="row-fluid">
-        <div class="col-md-9" style="padding-right:20px; border-right: 1px solid #ccc;">
-         <div ng-view></div>
-        </div>
 
-        <div class="col-md-3">
-            <div ng-include="'/app/side-bar/side-bar.html'" ng-controller="SideBarController"></div>
-        </div>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="one-half column" style="margin-top: 25%">
+        <h4>Basic Page</h4>
+        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
       </div>
     </div>
+  </div>
 
-    <script src="app/bower_components/platform/platform.js"></script>
-    <link rel="import" href="app/bower_components/polymer-github-card/dist/polymer-github-chart.html">
-    <script src="app/bower_components/angular/angular.js"></script>
-    <script src="app/bower_components/angular-route/angular-route.js"></script>
-    <script src="app/bower_components/marked/lib/marked.js"></script>
-    <script src="app/bower_components/angular-md/dist/angular-md.js"></script>
-    <script src="app/bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
-    <script src="app/app.js"></script>
-    <script src="app/webgl/glMatrix-0.9.5.min.js"></script>
-    <script src="app/webgl/webgl.js"></script>
-    <script src="app/linux/linux.js"></script>
-    <script src="app/portfolio/portfolio.js"></script>
-    <script src="app/nav-bar/nav-bar.js"></script>
-    <script src="app/side-bar/side-bar.js"></script>
-    <script src="app/components/version/version.js"></script>
-    <script src="app/components/version/version-directive.js"></script>
-<script src="app/components/version/interpolate-filter.js"></script>
-
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>
