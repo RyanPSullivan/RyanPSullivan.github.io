@@ -21,136 +21,84 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" hreg="css/custom.css">
-  
+  <link rel="stylesheet" href="css/custom.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/site.js"></script>
+  <script src="js/glMatrix-0.9.5.min.js"></script>
+  <script src="js/webgl.js"></script>
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
-<body>
+<body onload="webGLStart();">
 
     
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="navbar-spacer"></div>
+<div class="container">
+  <div class="navbar-spacer"></div>
     <nav class="navbar">
       <div class="container">
         <ul class="navbar-list">
-          <li class="navbar-item"><a class="navbar-link" href="#intro">Intro</a></li>
 	  <li class="navbar-item">
-	    <a class="navbar-link" href="#" data-provider="#educationNavPopover">Education</a>
+            <a class="navbar-link" href="#employment">Employment</a>
+      	  </li>
+	  <li class="navbar-item">
+	    <a class="navbar-link" href="#" data-popover="#educationNavPopover">Education</a>
 	    <div id="educationNavPopover" class="popover">
 	      <ul class="popover-list">
-	      <li class="popover-item">
+	        <li class="popover-item">
+
                   <a class="popover-link" href="#university">University Of Teesside</a>
-              </li>
-	      <li class="popover-item">
-		<a class="popover-link" href="#mitx">MITx</a>
-	      </li>
+                </li>
+	        <li class="popover-item">
+		  <a class="popover-link" href="#mitx">MITx</a>
+	        </li>
 	      </ul>
 	    </div>
 	  </li>
-          <li class="navbar-item">
-            <a class="navbar-link" href="#" data-popover="#codeNavPopover">Code</a>
-            <div id="codeNavPopover" class="popover">
-              <ul class="popover-list">
-                <li class="popover-item">
-                  <a class="popover-link" href="#grid">Grid</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="#typography">Typography</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="#buttons">Buttons</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="#forms">Forms</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="#lists">Lists</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="#code">Code</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="#tables">Tables</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="#utilities">Utilities</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="navbar-item"><a class="navbar-link" href="#examples">Examples</a></li>
-          <li class="navbar-item">
-            <a class="navbar-link" href="#" data-popover="#moreNavPopover">More</a>
-            <div id="moreNavPopover" class="popover">
-              <ul class="popover-list">
-                <li class="popover-item">
-                  <a class="popover-link" href="https://github.com/dhg/Skeleton">On Github</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="https://github.com/dhg/Skeleton#browser-support">Browsers</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="https://github.com/dhg/Skeleton#license">License</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="https://github.com/dhg/Skeleton#extensions">Extensions</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="https://github.com/dhg/Skeleton/releases">Versions</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="https://github.com/dhg/Skeleton#colophon">Colophon</a>
-                </li>
-              </ul>
-            </div>
-          </li>
+	  <li class="navbar-item"><a class="navbar-link" href="#webgl">Web GL</a></li>
         </ul>
       </div>
     </nav>
+ 
 
-    </div>
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
-      </div>
-    </div>
+  <!-- Employment Section -->
+  <div class="docs-section" id="employment">
+     <h3 class="docs-header">Employment</h3>
+    <li>Ubisoft Reflections - Internship</li>
+    <li>Fluid Pixel</li>
+    <li>BossAlien a NaturalMotion Studio</li>
+   </div>
+  
+  <!-- Education Section -->
 
-    <!-- Education Section -->
-  <h3>Education</h3>
   <div class="docs-section" id="university">
+    <h3 class="docs-header">Education</h3>
     <h4 class="docs-header">University Of Teesside</h4>
     <li> BSc. Computer Games Programming (Skillset Accredited)</li>
-    <li> First Class Honours </li>
-    <h5>Modules Included</h5>
-    <li>Advances Games Software Development</li>
-    <li>Multiplayer Games Development</li>
-    <li>Graphical Mathematics</li>
-    <li>Group Development</li>
-    <li>Artificial Intelligence</li>
-    <li>Graphics Programming</li>
-    <h5>Disseration</h5>
+    <li> Graduated with a First Class Honours</li>
+    <h5 class="docs-header">Disseration</h5>
     Assessing the suitability of Android as a games development platform, Read Here
-    
+    <h5 class="docs-header">Group Project</h5>
     <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="//www.youtube.com/embed/u5qc96ImLSI" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
 
-  <div class="docs-section" id="mitx">
-    <h4 class="docs-header">MITx - Circuits And Electronics</h4>
-    
-  </div>
-
-
+  <div id="mitx">
+    <h4>MITx - Circuits And Electronics</h4>
   </div>
   
+  <h3>WebGL - Scratch</h3>
+  <div class="docs-section" id="webgl">
+     <canvas id="demo" style="border: none;" width="500" height="500"></canvas>
+  </div>
+  
+</div>
+ </div> 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
